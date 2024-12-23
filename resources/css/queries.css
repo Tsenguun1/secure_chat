@@ -1,0 +1,41 @@
+/*----------BASIC SETUP---------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+    background-color: #1c1e2a;
+}
+
+form {
+    padding: 20px 20px 8px 20px;
+    border: 1px solid rgb(230, 230, 230);
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px rgb(240, 240, 240);
+    background: #fff;
+}
+
+h1:first-child {
+    padding: 20px;
+}
+
+table {
+    border-collapse: separate;
+}
+
+tr:first-child th:first-child {
+    border-top-left-radius: 20px;
+    padding-left: 30px;
+}
+
+tr:first-child th:last-child {
+    border-top-right-radius: 20px;
+}
